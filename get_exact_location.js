@@ -911,7 +911,7 @@ function get_exact_location(meters_accurate_enough, app_name, what_the_action_is
 									});
 								}
 							}
-						}//photo is actually ready.
+						}//tried at least 10 times
 					}//inaccurate reading					
 				}//past the first reading				
 			} //check location
