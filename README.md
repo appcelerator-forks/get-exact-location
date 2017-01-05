@@ -62,7 +62,9 @@ For Android, it checks to see what locating hardware is enabled (GPS, Wi-Fi, and
 all or only some are allowed, and if it needs more it will ask for more. It can turn on Wi-Fi if the user says they allow it.
 It can take them to the Location Settings page of the OS if need be. Assuming the ideal situation that GPS and Wi-Fi are both
 enabled, it will switch back and forth between the two until it gets an accurate reading or runs out of time (the time is
-specified inside the function and you can easily change it). The best thing as far as Android is concerned is that this module
+specified inside the function and you can easily change it).
+
+The best thing as far as Android is concerned is that this module
 doesn't require a native module built using the Play Services SDK. I previously used a module I built which used the 
 Fused Location Provider and worked great, but Appcelerator doesn't handle modules built with the Play Services well - your app
 can't use modules built with different versions of the Play Services SDK, and it seems impossible to build modules
