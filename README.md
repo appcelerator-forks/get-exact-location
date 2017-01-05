@@ -19,6 +19,8 @@ https://github.com/dommccarty/android-location-provider-states
 Example usage:
 
 ```
+var get_exact_location = require("get_exact_location");
+
 var meters_accurate_enough = 65;
 var app_name = "Restado",
 var what_the_action_is = "see how close you are to a delicious restaurant";
