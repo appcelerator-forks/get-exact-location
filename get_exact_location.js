@@ -895,7 +895,7 @@ function get_exact_location(meters_accurate_enough, app_name, what_the_action_is
 									Ti.Geolocation.addEventListener("location", check_location);
 									Titanium.Geolocation.accuracy = Titanium.Geolocation.ACCURACY_BEST;
 								}
-								else { //we did our best. end. do not send what we have.
+								else { //we did our best. end.
 									
 									
 									var alertt = Ti.UI.createAlertDialog({
