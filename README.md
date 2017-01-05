@@ -66,7 +66,7 @@ specified inside the function and you can easily change it).
 
 The best thing as far as Android is concerned is that this module
 doesn't require a native module built using the Play Services SDK. I previously used a module I built which used the 
-Fused Location Provider and worked great, but Appcelerator doesn't handle modules built with the Play Services well - your app
+Fused Location Provider and worked great, but Appcelerator doesn't handle modules built with the Play Services SDK well - your app
 can't use modules built with different versions of the Play Services SDK, and it seems impossible to build modules
 using the latest versions of that SDK. So I do without it. The good news is that this CommonJS module works just as well as
 the native module I built before with the Fused Location Provider! Yay.
