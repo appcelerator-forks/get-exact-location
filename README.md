@@ -21,7 +21,7 @@ Example usage:
 ```
 var meters_accurate_enough = 65;
 var app_name = "Restado",
-var what_the_action_is = "See how close you are to a delicious restaurant";
+var what_the_action_is = "see how close you are to a delicious restaurant";
 var S_inform_obj = {value: false};
 var callback = function(e) {
 
